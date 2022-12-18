@@ -19,19 +19,6 @@
 		<spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
 		<logstash-logback-encoder.version>6.1</logstash-logback-encoder.version>
 	</properties>
-        
-	 <distributionManagement>
-      <repository>
-        <id>nexus</id>
-        <name>Landmark Technologies Releases Nexus Repository</name>
-        <url>http://44.213.70.112:8081/repository/dada-release/</url> 
-      </repository>
-      <snapshotRepository>
-        <id>nexus</id>
-        <name>Landmark Technologies Snapshot Nexus Repository </name>
-        <url>http://52.53.227.31:8191/landmark/repository/tesla-fe-snapshots/</url>
-      </snapshotRepository>
-  </distributionManagement>
 	
 	<dependencyManagement>
 		<dependencies>
